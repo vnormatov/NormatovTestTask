@@ -1,3 +1,3 @@
-For install run
+For installation run
 * npm install
 * node server.js

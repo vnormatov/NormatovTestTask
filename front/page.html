@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stars Wars</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-xs-6 col-xs-offset-3">
+            <h2>Сторінка по всесвіту Star Wars</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-4">
+            <button id="button-previous" class="btn btn-primary">Попередній герой</button>
+        </div>
+        <div class="col-xs-4 hero">hero</div>
+        <div class="col-xs-4">
+            <button id="button-next" class="btn btn-primary">Наступний герой</button>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-6 col-xs-offset-3">
+            <button type="button" id="button-for-modal" class="btn btn-primary" data-toggle="modal" data-target="#infoModal">Read me</button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">інструкцією по сайту</h4>
+                </div>
+                <div class="modal-body">
+                    <p> модальне вікно з інструкцією по сайту.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="js.js"></script>
+</html>
